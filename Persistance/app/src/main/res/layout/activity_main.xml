@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/names_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="10dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:hint="Enter A Name"
+        android:allowUndo="true"/>
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Enter"/>
+
+    <TextView
+        android:id="@+id/names_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="Names"
+        android:textSize="50sp"/>
+    <TextView
+        android:id="@+id/displayed_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textAlignment="center"/>
+
+</LinearLayout>
